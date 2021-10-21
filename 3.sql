@@ -1,0 +1,1 @@
+SELECT order_id, order_date, customer_id FROM CUSTOMER NATURAL JOIN ORDERT WHERE customer_id = 10001 ORDER BY order_date DESC;

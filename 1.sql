@@ -1,0 +1,1 @@
+SELECT postal_code, count(*) FROM CUSTOMER GROUP BY postal_code ORDER BY postal_code;

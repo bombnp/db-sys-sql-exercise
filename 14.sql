@@ -1,0 +1,1 @@
+SELECT order_id, sum(ordered_quantity * standard_price) as total_payment FROM ORDER_LINE NATURAL JOIN PRODUCT GROUP BY order_id ORDER BY total_payment DESC;

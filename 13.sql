@@ -1,0 +1,1 @@
+SELECT sum(ordered_quantity * standard_price) as total_price FROM ORDER_LINE NATURAL JOIN PRODUCT WHERE ORDER_ID = 3;
